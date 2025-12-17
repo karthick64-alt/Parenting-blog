@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - Bump & Beyond</title>
+    <meta name="description" content="Create a free account to join the Bump & Beyond community and access exclusive content.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <span class="search-icon">🔍</span>
+                <span>Search</span>
+            </div>
+            <ul class="nav-center">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="resources.html">FORUM GROUPS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="nav-right">
+                <span>👤</span>
+                <a href="login.html" style="color: var(--color-text-dark);">Log In</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-box">
+            <span class="search-close">×</span>
+            <input type="text" placeholder="Search articles, tips, and guides...">
+        </div>
+    </div>
+
+    <!-- Register Section -->
+    <section class="section container" style="max-width: 600px; margin-top: 3rem;">
+        <div class="card" style="padding: 3rem;">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h1 style="margin-bottom: 0.5rem;">Join Our Community</h1>
+                <p style="color: var(--color-text-medium);">Create your free account and start your parenting journey with us</p>
+            </div>
+
+            <form id="register-form">
+                <div class="form-group">
+                    <label class="form-label">Full Name *</label>
+                    <input type="text" name="name" class="form-input" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Email Address *</label>
+                    <input type="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Password *</label>
+                    <input type="password" name="password" class="form-input" placeholder="Create a password (min. 8 characters)" required minlength="8">
+                    <p style="font-size: 0.85rem; color: var(--color-text-light); margin-top: 0.5rem;">Password must be at least 8 characters long</p>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Confirm Password *</label>
+                    <input type="password" name="confirmPassword" class="form-input" placeholder="Confirm your password" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">I'm interested in (optional)</label>
+                    <select name="interest" class="form-select">
+                        <option value="">Select an option...</option>
+                        <option value="pregnancy">Pregnancy & Newborn</option>
+                        <option value="baby-care">Baby Care (0-12 months)</option>
+                        <option value="toddler">Toddler Parenting</option>
+                        <option value="school-age">School-Age Kids</option>
+                        <option value="teen">Teen Parenting</option>
+                        <option value="all">All of the above</option>
+                    </select>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: flex; align-items: start; gap: 0.5rem; cursor: pointer;">
+                        <input type="checkbox" name="terms" required style="margin-top: 0.25rem; cursor: pointer;">
+                        <span style="font-size: 0.9rem; color: var(--color-text-medium);">
+                            I agree to the <a href="terms.html" target="_blank" style="color: var(--color-accent-teal);">Terms & Conditions</a> and <a href="privacy-policy.html" target="_blank" style="color: var(--color-accent-teal);">Privacy Policy</a> *
+                        </span>
+                    </label>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="display: flex; align-items: start; gap: 0.5rem; cursor: pointer;">
+                        <input type="checkbox" name="newsletter" style="margin-top: 0.25rem; cursor: pointer;">
+                        <span style="font-size: 0.9rem; color: var(--color-text-medium);">
+                            Subscribe to our newsletter for weekly parenting tips and exclusive content
+                        </span>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 1.5rem;">Create Account</button>
+            </form>
+
+            <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-soft-blue);">
+                <p style="color: var(--color-text-medium); margin-bottom: 1rem;">Already have an account?</p>
+                <a href="login.html" class="btn btn-outline" style="width: 100%;">Log In</a>
+            </div>
+
+            <!-- Social Registration Options -->
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-soft-blue);">
+                <p style="text-align: center; color: var(--color-text-medium); margin-bottom: 1rem; font-size: 0.9rem;">Or sign up with</p>
+                <div style="display: flex; gap: 1rem;">
+                    <button class="btn btn-secondary" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                        <span>f</span>
+                        <span>Facebook</span>
+                    </button>
+                    <button class="btn btn-secondary" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                        <span>G</span>
+                        <span>Google</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- What You Get -->
+        <div class="card" style="margin-top: 2rem; background: linear-gradient(135deg, var(--color-soft-blue) 0%, var(--color-peach) 100%);">
+            <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--color-text-dark);">What You'll Get as a Member</h3>
+            <div class="grid grid-2" style="gap: 1rem;">
+                <div>
+                    <h4 style="color: var(--color-text-dark); margin-bottom: 0.5rem;">🎁 Exclusive Content</h4>
+                    <p style="font-size: 0.9rem; color: var(--color-text-dark);">Access to subscriber-only articles, guides, and resources</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--color-text-dark); margin-bottom: 0.5rem;">💬 Community Access</h4>
+                    <p style="font-size: 0.9rem; color: var(--color-text-dark);">Join forum discussions and connect with other parents</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--color-text-dark); margin-bottom: 0.5rem;">📚 Save Favorites</h4>
+                    <p style="font-size: 0.9rem; color: var(--color-text-dark);">Bookmark your favorite articles and resources</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--color-text-dark); margin-bottom: 0.5rem;">✨ Personalized Tips</h4>
+                    <p style="font-size: 0.9rem; color: var(--color-text-dark);">Get parenting tips tailored to your child's age</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Bump & Beyond</h3>
+                <p style="color: var(--color-soft-blue);">Supporting young moms and moms-to-be on their parenting journey.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <a href="blog.html?category=pregnancy">Pregnancy</a>
+                <a href="blog.html?category=baby-care">Baby Care</a>
+                <a href="blog.html?category=toddlers">Toddlers</a>
+                <a href="blog.html?category=teens">Teens</a>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="disclaimer.html">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bump & Beyond. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        // Registration form handling
+        const registerForm = document.getElementById('register-form');
+        if (registerForm) {
+            registerForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const formData = new FormData(registerForm);
+                const name = formData.get('name');
+                const email = formData.get('email');
+                const password = formData.get('password');
+                const confirmPassword = formData.get('confirmPassword');
+                const terms = formData.get('terms');
+                
+                // Validation
+                if (!name || !email || !password || !confirmPassword) {
+                    alert('Please fill in all required fields.');
+                    return;
+                }
+                
+                if (password.length < 8) {
+                    alert('Password must be at least 8 characters long.');
+                    return;
+                }
+                
+                if (password !== confirmPassword) {
+                    alert('Passwords do not match. Please try again.');
+                    return;
+                }
+                
+                if (!terms) {
+                    alert('Please agree to the Terms & Conditions and Privacy Policy.');
+                    return;
+                }
+                
+                // Simulate registration (in a real app, this would connect to a backend)
+                alert('Registration successful! In a real application, this would create your account and redirect you. For now, this is a demo.');
+                // In a real application, you would:
+                // - Send registration data to your backend
+                // - Handle response (success/error)
+                // - Redirect to login or dashboard
+                // - Send verification email if required
+            });
+        }
+    </script>
+</body>
+</html>
+

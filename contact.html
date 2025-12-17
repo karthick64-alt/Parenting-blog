@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bump & Beyond</title>
+    <meta name="description" content="Get in touch with Bump & Beyond. Contact us for questions, collaborations, or brand inquiries.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <span class="search-icon">🔍</span>
+                <span>Search</span>
+            </div>
+            <ul class="nav-center">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="resources.html">FORUM GROUPS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="nav-right">
+                <span>👤</span>
+                <a href="login.html" style="color: var(--color-text-dark);">Log In</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-box">
+            <span class="search-close">×</span>
+            <input type="text" placeholder="Search articles, tips, and guides...">
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 300px;">
+        <div class="hero-content">
+            <h1 class="hero-title">Contact Us</h1>
+            <p class="hero-tagline">We'd Love to Hear From You</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section container" style="max-width: 900px;">
+        <div class="grid grid-2" style="gap: 3rem; align-items: start;">
+            <!-- Contact Form -->
+            <div>
+                <h2 style="margin-bottom: 1.5rem;">Send Us a Message</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label class="form-label">Name *</label>
+                        <input type="text" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email *</label>
+                        <input type="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Subject *</label>
+                        <select name="subject" class="form-select" required>
+                            <option value="">Select a subject...</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="collaboration">Collaboration / Brand Inquiry</option>
+                            <option value="blog">Blog Question</option>
+                            <option value="community">Community / Forum</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Message *</label>
+                        <textarea name="message" class="form-textarea" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div>
+                <h2 style="margin-bottom: 1.5rem;">Get in Touch</h2>
+                <div class="card" style="margin-bottom: 1.5rem;">
+                    <h3 style="margin-bottom: 1rem;">📧 Email</h3>
+                    <p style="margin-bottom: 0.5rem;">General inquiries:</p>
+                    <a href="mailto:hello@bumpandbeyond.com" style="color: var(--color-accent-teal); font-weight: 600;">hello@bumpandbeyond.com</a>
+                    <p style="margin-top: 1rem; margin-bottom: 0.5rem;">Collaborations:</p>
+                    <a href="mailto:collab@bumpandbeyond.com" style="color: var(--color-accent-teal); font-weight: 600;">collab@bumpandbeyond.com</a>
+                </div>
+
+                <div class="card" style="margin-bottom: 1.5rem;">
+                    <h3 style="margin-bottom: 1rem;">⏰ Response Time</h3>
+                    <p>We typically respond within 24-48 hours. For urgent matters, please use the contact form above and mark it as urgent.</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="margin-bottom: 1rem;">💼 Collaboration & Brand Inquiries</h3>
+                    <p style="margin-bottom: 1rem;">Interested in working together? We're open to:</p>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.5rem;">✓ Sponsored content partnerships</li>
+                        <li style="margin-bottom: 0.5rem;">✓ Product reviews and features</li>
+                        <li style="margin-bottom: 0.5rem;">✓ Guest posting opportunities</li>
+                        <li style="margin-bottom: 0.5rem;">✓ Brand collaborations</li>
+                    </ul>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--color-text-light);">
+                        Please use the contact form and select "Collaboration / Brand Inquiry" as the subject.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section class="section container">
+        <h2 class="section-title">Connect With Us</h2>
+        <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+            <a href="#" class="btn btn-primary" style="display: flex; align-items: center; gap: 0.5rem;">
+                <span>f</span>
+                <span>Facebook</span>
+            </a>
+            <a href="#" class="btn btn-primary" style="display: flex; align-items: center; gap: 0.5rem;">
+                <span>📷</span>
+                <span>Instagram</span>
+            </a>
+            <a href="#" class="btn btn-primary" style="display: flex; align-items: center; gap: 0.5rem;">
+                <span>P</span>
+                <span>Pinterest</span>
+            </a>
+            <a href="#" class="btn btn-primary" style="display: flex; align-items: center; gap: 0.5rem;">
+                <span>X</span>
+                <span>Twitter/X</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section container" style="max-width: 800px;">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="card" style="margin-bottom: 1rem;">
+            <h3 style="margin-bottom: 0.5rem;">How can I submit a guest post?</h3>
+            <p>We welcome guest posts from experienced parents and experts. Please use the contact form above and select "Blog Question" as the subject. Include a brief pitch and writing samples.</p>
+        </div>
+        <div class="card" style="margin-bottom: 1rem;">
+            <h3 style="margin-bottom: 0.5rem;">Do you accept product reviews?</h3>
+            <p>Yes! We're always interested in reviewing products that would be valuable to our readers. Please contact us with product details and we'll review it for potential coverage.</p>
+        </div>
+        <div class="card" style="margin-bottom: 1rem;">
+            <h3 style="margin-bottom: 0.5rem;">Can I share my parenting story?</h3>
+            <p>Absolutely! We love sharing reader stories. Visit our <a href="community.html">Community</a> page to learn more about submitting your story.</p>
+        </div>
+        <div class="card">
+            <h3 style="margin-bottom: 0.5rem;">How do I join the forum?</h3>
+            <p>Our community forum is open to all parents! Simply visit our <a href="community.html">Community</a> page and click "Join Group" on any forum that interests you.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Bump & Beyond</h3>
+                <p style="color: var(--color-soft-blue);">Supporting young moms and moms-to-be on their parenting journey.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <a href="blog.html?category=pregnancy">Pregnancy</a>
+                <a href="blog.html?category=baby-care">Baby Care</a>
+                <a href="blog.html?category=toddlers">Toddlers</a>
+                <a href="blog.html?category=teens">Teens</a>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="disclaimer.html">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bump & Beyond. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

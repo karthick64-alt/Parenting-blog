@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In - Bump & Beyond</title>
+    <meta name="description" content="Log in to your Bump & Beyond account to access exclusive content and join the community.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <span class="search-icon">🔍</span>
+                <span>Search</span>
+            </div>
+            <ul class="nav-center">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="resources.html">FORUM GROUPS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="nav-right">
+                <span>👤</span>
+                <a href="login.html" style="color: var(--color-text-dark);">Log In</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-box">
+            <span class="search-close">×</span>
+            <input type="text" placeholder="Search articles, tips, and guides...">
+        </div>
+    </div>
+
+    <!-- Login Section -->
+    <section class="section container" style="max-width: 500px; margin-top: 4rem;">
+        <div class="card" style="padding: 3rem;">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h1 style="margin-bottom: 0.5rem;">Welcome Back!</h1>
+                <p style="color: var(--color-text-medium);">Log in to access exclusive content and join our community</p>
+            </div>
+
+            <form id="login-form">
+                <div class="form-group">
+                    <label class="form-label">Email Address *</label>
+                    <input type="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Password *</label>
+                    <input type="password" name="password" class="form-input" placeholder="Enter your password" required>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 0.5rem;">
+                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                        <input type="checkbox" name="remember" style="cursor: pointer;">
+                        <span style="font-size: 0.9rem; color: var(--color-text-medium);">Remember me</span>
+                    </label>
+                    <a href="#" style="font-size: 0.9rem; color: var(--color-accent-teal);">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 1.5rem;">Log In</button>
+            </form>
+
+            <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-soft-blue);">
+                <p style="color: var(--color-text-medium); margin-bottom: 1rem;">Don't have an account?</p>
+                <a href="register.html" class="btn btn-outline" style="width: 100%;">Create an Account</a>
+            </div>
+
+            <!-- Social Login Options -->
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-soft-blue);">
+                <p style="text-align: center; color: var(--color-text-medium); margin-bottom: 1rem; font-size: 0.9rem;">Or continue with</p>
+                <div style="display: flex; gap: 1rem;">
+                    <button class="btn btn-secondary" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                        <span>f</span>
+                        <span>Facebook</span>
+                    </button>
+                    <button class="btn btn-secondary" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                        <span>G</span>
+                        <span>Google</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benefits of Logging In -->
+        <div class="card" style="margin-top: 2rem; background: linear-gradient(135deg, var(--color-soft-blue) 0%, var(--color-peach) 100%);">
+            <h3 style="text-align: center; margin-bottom: 1rem; color: var(--color-text-dark);">Benefits of Creating an Account</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.75rem; color: var(--color-text-dark);">✓ Access exclusive content and resources</li>
+                <li style="margin-bottom: 0.75rem; color: var(--color-text-dark);">✓ Join our community forums</li>
+                <li style="margin-bottom: 0.75rem; color: var(--color-text-dark);">✓ Save your favorite articles</li>
+                <li style="margin-bottom: 0.75rem; color: var(--color-text-dark);">✓ Comment and interact with other parents</li>
+                <li style="margin-bottom: 0.75rem; color: var(--color-text-dark);">✓ Get personalized parenting tips</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Bump & Beyond</h3>
+                <p style="color: var(--color-soft-blue);">Supporting young moms and moms-to-be on their parenting journey.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <a href="blog.html?category=pregnancy">Pregnancy</a>
+                <a href="blog.html?category=baby-care">Baby Care</a>
+                <a href="blog.html?category=toddlers">Toddlers</a>
+                <a href="blog.html?category=teens">Teens</a>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="disclaimer.html">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bump & Beyond. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        // Login form handling
+        const loginForm = document.getElementById('login-form');
+        if (loginForm) {
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const formData = new FormData(loginForm);
+                const email = formData.get('email');
+                const password = formData.get('password');
+                
+                // Simple validation
+                if (!email || !password) {
+                    alert('Please fill in all required fields.');
+                    return;
+                }
+                
+                // Simulate login (in a real app, this would connect to a backend)
+                alert('Login functionality would connect to your authentication system. For now, this is a demo.');
+                // In a real application, you would:
+                // - Send credentials to your backend
+                // - Handle authentication response
+                // - Redirect to dashboard or home page
+                // - Store authentication token
+            });
+        }
+    </script>
+</body>
+</html>
+

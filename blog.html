@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Bump & Beyond</title>
+    <meta name="description" content="Browse all our parenting articles, tips, and guides organized by category.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <span class="search-icon">🔍</span>
+                <span>Search</span>
+            </div>
+            <ul class="nav-center">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="resources.html">FORUM GROUPS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="nav-right">
+                <span>👤</span>
+                <a href="login.html" style="color: var(--color-text-dark);">Log In</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-box">
+            <span class="search-close">×</span>
+            <input type="text" placeholder="Search articles, tips, and guides...">
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 300px;">
+        <div class="hero-content">
+            <h1 class="hero-title">Our Blog</h1>
+            <p class="hero-tagline">Tips, Guides & Stories for Your Parenting Journey</p>
+        </div>
+    </section>
+
+    <!-- Category Filters -->
+    <section class="section container">
+        <div class="categories">
+            <span class="category-tag active" data-category="all">All Posts</span>
+            <span class="category-tag" data-category="pregnancy">Pregnancy & Newborn</span>
+            <span class="category-tag" data-category="baby-care">Baby Care</span>
+            <span class="category-tag" data-category="toddler">Toddler Parenting</span>
+            <span class="category-tag" data-category="school-age">School-age Kids</span>
+            <span class="category-tag" data-category="teen">Teen Parenting</span>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="section container">
+        <div class="grid grid-3">
+            <!-- Post 1 -->
+            <div class="card blog-post-card" data-category="pregnancy">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop" alt="Pregnancy tips" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Pregnancy</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-peach);">Newborn</span>
+                </div>
+                <h3 class="card-title">10 Essential Tips for First-Time Moms</h3>
+                <p class="card-content">Navigate your first pregnancy with confidence. Learn from experienced moms and experts about what to expect and how to prepare.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">March 15, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="card blog-post-card" data-category="baby-care">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=400&h=300&fit=crop" alt="Baby care" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Baby Care</span>
+                </div>
+                <h3 class="card-title">Newborn Care: Your Complete Guide</h3>
+                <p class="card-content">Everything you need to know about caring for your newborn, from feeding schedules to sleep routines and health monitoring.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">March 10, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+
+            <!-- Post 3 -->
+            <div class="card blog-post-card" data-category="toddler">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop" alt="Toddler activities" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Toddler</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-mint);">Activities</span>
+                </div>
+                <h3 class="card-title">Fun Learning Activities for Toddlers</h3>
+                <p class="card-content">Engage your little ones with creative and educational activities that promote development while having fun together.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">March 5, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+
+            <!-- Post 4 -->
+            <div class="card blog-post-card" data-category="pregnancy">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=400&h=300&fit=crop" alt="Pregnancy nutrition" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Pregnancy</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-lavender);">Nutrition</span>
+                </div>
+                <h3 class="card-title">Pregnancy Nutrition: What to Eat</h3>
+                <p class="card-content">A comprehensive guide to healthy eating during pregnancy, including essential nutrients and meal planning tips.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">February 28, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+
+            <!-- Post 5 -->
+            <div class="card blog-post-card" data-category="school-age">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop" alt="School prep" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">School-age</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-teal);">Education</span>
+                </div>
+                <h3 class="card-title">Preparing Your Child for School</h3>
+                <p class="card-content">Tips and strategies to help your child transition smoothly into school life, from emotional readiness to practical skills.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">February 20, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+
+            <!-- Post 6 -->
+            <div class="card blog-post-card" data-category="teen">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=400&h=300&fit=crop" alt="Teen parenting" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Teen</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-rose);">Communication</span>
+                </div>
+                <h3 class="card-title">Communicating with Your Teenager</h3>
+                <p class="card-content">Effective strategies for maintaining open communication with your teenager and navigating the challenges of the teen years.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">February 15, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+
+            <!-- Post 7 -->
+            <div class="card blog-post-card" data-category="baby-care">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop" alt="Sleep training" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Baby Care</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-beige);">Sleep</span>
+                </div>
+                <h3 class="card-title">Gentle Sleep Training Methods</h3>
+                <p class="card-content">Explore gentle, evidence-based sleep training methods that respect your baby's needs while helping the whole family get better rest.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">February 10, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+
+            <!-- Post 8 -->
+            <div class="card blog-post-card" data-category="toddler">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=400&h=300&fit=crop" alt="Toddler behavior" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Toddler</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-peach);">Behavior</span>
+                </div>
+                <h3 class="card-title">Understanding Toddler Tantrums</h3>
+                <p class="card-content">Learn why tantrums happen and discover effective strategies for managing them with patience and understanding.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">February 5, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+
+            <!-- Post 9 -->
+            <div class="card blog-post-card" data-category="pregnancy">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop" alt="Pregnancy exercise" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Pregnancy</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-mint);">Fitness</span>
+                </div>
+                <h3 class="card-title">Safe Exercise During Pregnancy</h3>
+                <p class="card-content">A guide to staying active and healthy during pregnancy with safe exercise routines and modifications.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">January 30, 2024</p>
+                <a href="blog-post.html" class="card-link">Read More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <section class="section container text-center">
+        <div style="display: flex; gap: 1rem; justify-content: center; align-items: center;">
+            <button class="btn btn-outline">Previous</button>
+            <span style="padding: 0 1rem;">Page 1 of 3</span>
+            <button class="btn btn-primary">Next</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Bump & Beyond</h3>
+                <p style="color: var(--color-soft-blue);">Supporting young moms and moms-to-be on their parenting journey.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <a href="blog.html?category=pregnancy">Pregnancy</a>
+                <a href="blog.html?category=baby-care">Baby Care</a>
+                <a href="blog.html?category=toddlers">Toddlers</a>
+                <a href="blog.html?category=teens">Teens</a>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="disclaimer.html">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bump & Beyond. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

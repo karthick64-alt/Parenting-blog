@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Reviews - Bump & Beyond</title>
+    <meta name="description" content="Honest reviews of baby products, toys, and learning tools from real parents.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <span class="search-icon">🔍</span>
+                <span>Search</span>
+            </div>
+            <ul class="nav-center">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="resources.html">FORUM GROUPS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="nav-right">
+                <span>👤</span>
+                <a href="login.html" style="color: var(--color-text-dark);">Log In</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-box">
+            <span class="search-close">×</span>
+            <input type="text" placeholder="Search articles, tips, and guides...">
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="hero" style="min-height: 300px;">
+        <div class="hero-content">
+            <h1 class="hero-title">Product Reviews</h1>
+            <p class="hero-tagline">Honest Reviews from Real Parents</p>
+        </div>
+    </section>
+
+    <!-- Affiliate Disclosure -->
+    <section class="section container" style="max-width: 800px;">
+        <div style="background-color: var(--color-beige); padding: 1.5rem; border-radius: var(--radius-md); margin-bottom: 2rem;">
+            <p style="font-weight: 600; margin-bottom: 0.5rem;">💡 Affiliate Disclosure</p>
+            <p style="font-size: 0.9rem;">
+                Some links on this page are affiliate links, which means we may earn a small commission if you make a purchase through them. This helps support our blog and allows us to continue providing free content. All reviews are honest and based on our genuine experiences and testing.
+            </p>
+        </div>
+    </section>
+
+    <!-- Category Filters -->
+    <section class="section container">
+        <div class="categories">
+            <span class="category-tag active" data-category="all">All Products</span>
+            <span class="category-tag" data-category="baby">Baby Products</span>
+            <span class="category-tag" data-category="toys">Toys & Learning</span>
+            <span class="category-tag" data-category="gear">Baby Gear</span>
+            <span class="category-tag" data-category="feeding">Feeding</span>
+            <span class="category-tag" data-category="safety">Safety</span>
+        </div>
+    </section>
+
+    <!-- Product Reviews -->
+    <section class="section container">
+        <div class="grid grid-3">
+            <!-- Review 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=400&h=300&fit=crop" alt="Baby monitor" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Baby Gear</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-peach);">Safety</span>
+                </div>
+                <h3 class="card-title">Smart Baby Monitor Review</h3>
+                <div style="margin-bottom: 0.5rem;">
+                    <span style="color: #FFD700;">★★★★★</span>
+                    <span style="color: var(--color-text-light); font-size: 0.9rem;"> (4.8/5)</span>
+                </div>
+                <p class="card-content">After 6 months of use, this monitor has been a game-changer. Crystal clear video, reliable connection, and great night vision. Highly recommend!</p>
+                <a href="#" class="card-link">Read Full Review →</a>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&h=300&fit=crop" alt="Baby carrier" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Baby Gear</span>
+                </div>
+                <h3 class="card-title">Ergonomic Baby Carrier</h3>
+                <div style="margin-bottom: 0.5rem;">
+                    <span style="color: #FFD700;">★★★★☆</span>
+                    <span style="color: var(--color-text-light); font-size: 0.9rem;"> (4.5/5)</span>
+                </div>
+                <p class="card-content">Comfortable for both parent and baby. Great for long walks and hands-free parenting. The only downside is the price point.</p>
+                <a href="#" class="card-link">Read Full Review →</a>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop" alt="Educational toys" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Toys & Learning</span>
+                </div>
+                <h3 class="card-title">Montessori Learning Toys Set</h3>
+                <div style="margin-bottom: 0.5rem;">
+                    <span style="color: #FFD700;">★★★★★</span>
+                    <span style="color: var(--color-text-light); font-size: 0.9rem;"> (4.9/5)</span>
+                </div>
+                <p class="card-content">My toddler loves these! High quality, safe materials, and genuinely educational. Worth every penny for the developmental benefits.</p>
+                <a href="#" class="card-link">Read Full Review →</a>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=400&h=300&fit=crop" alt="Bottle warmer" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Feeding</span>
+                </div>
+                <h3 class="card-title">Fast Bottle Warmer</h3>
+                <div style="margin-bottom: 0.5rem;">
+                    <span style="color: #FFD700;">★★★★☆</span>
+                    <span style="color: var(--color-text-light); font-size: 0.9rem;"> (4.3/5)</span>
+                </div>
+                <p class="card-content">Heats bottles quickly and evenly. Easy to use in the middle of the night. Some users report it can be noisy.</p>
+                <a href="#" class="card-link">Read Full Review →</a>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop" alt="Car seat" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Safety</span>
+                    <span class="category-tag" style="font-size: 0.8rem; background-color: var(--color-mint);">Baby Gear</span>
+                </div>
+                <h3 class="card-title">Convertible Car Seat</h3>
+                <div style="margin-bottom: 0.5rem;">
+                    <span style="color: #FFD700;">★★★★★</span>
+                    <span style="color: var(--color-text-light); font-size: 0.9rem;"> (4.7/5)</span>
+                </div>
+                <p class="card-content">Grows with your child from infant to toddler. Excellent safety ratings, easy installation, and comfortable for long trips.</p>
+                <a href="#" class="card-link">Read Full Review →</a>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&h=300&fit=crop" alt="Stroller" class="card-image">
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                    <span class="category-tag" style="font-size: 0.8rem;">Baby Gear</span>
+                </div>
+                <h3 class="card-title">Lightweight Travel Stroller</h3>
+                <div style="margin-bottom: 0.5rem;">
+                    <span style="color: #FFD700;">★★★★☆</span>
+                    <span style="color: var(--color-text-light); font-size: 0.9rem;"> (4.4/5)</span>
+                </div>
+                <p class="card-content">Perfect for travel and city living. Folds compactly, easy to maneuver. Storage basket could be larger, but overall great value.</p>
+                <a href="#" class="card-link">Read Full Review →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review Guidelines -->
+    <section class="section container">
+        <div style="background: linear-gradient(135deg, var(--color-soft-blue) 0%, var(--color-peach) 100%); padding: 2rem; border-radius: var(--radius-lg);">
+            <h2 style="text-align: center; margin-bottom: 1rem; color: var(--color-text-dark);">Our Review Process</h2>
+            <div class="grid grid-3" style="gap: 1.5rem; margin-top: 1.5rem;">
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🧪</div>
+                    <h4 style="color: var(--color-text-dark);">Tested & Used</h4>
+                    <p style="color: var(--color-text-dark); font-size: 0.9rem;">All products are personally tested by our team or trusted parent reviewers.</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">💬</div>
+                    <h4 style="color: var(--color-text-dark);">Honest Opinions</h4>
+                    <p style="color: var(--color-text-dark); font-size: 0.9rem;">We share both pros and cons, giving you the full picture to make informed decisions.</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⭐</div>
+                    <h4 style="color: var(--color-text-dark);">Real Ratings</h4>
+                    <p style="color: var(--color-text-dark); font-size: 0.9rem;">Our ratings are based on quality, value, safety, and real-world usability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Bump & Beyond</h3>
+                <p style="color: var(--color-soft-blue);">Supporting young moms and moms-to-be on their parenting journey.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <a href="blog.html?category=pregnancy">Pregnancy</a>
+                <a href="blog.html?category=baby-care">Baby Care</a>
+                <a href="blog.html?category=toddlers">Toddlers</a>
+                <a href="blog.html?category=teens">Teens</a>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="disclaimer.html">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bump & Beyond. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
